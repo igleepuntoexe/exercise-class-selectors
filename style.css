@@ -1,0 +1,63 @@
+body{
+    background-color: #adb2b6;
+}
+
+h1{
+    color: #9a8ba8;
+}
+
+p{
+    background-color: #ffff00;
+}
+
+.hello{
+    background-color: #ffffff;
+}
+
+#special{
+    background-color: #ffff00;
+}
+
+#special::first-letter{
+    color: green;
+    text-transform: capitalize;
+    font-size: 100px;
+}
+
+h2{
+    color: #e3b489;
+}
+
+h2 p{
+    background-color: #ffff00;
+}
+
+ul{
+    color: #1314df;
+}
+
+li{
+    color: #8e93d8;
+}
+
+div p:nth-last-child(2){
+    background-color: #ffc0cb;
+}
+
+em{
+    color: #ffffff;
+}
+
+div:nth-of-type(3) p:nth-of-type(2){
+    background-color: #ffc0cb;
+    border: 3px solid white
+}
+
+
+input[name="name"] {
+    background: #808080;
+}
+
+input{
+    border-color: #f71616;
+}
